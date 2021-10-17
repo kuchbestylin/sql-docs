@@ -192,7 +192,7 @@ The following example shows how to mark a transaction. The transaction `Candidat
   
 ```sql  
 BEGIN TRANSACTION CandidateDelete  
-    WITH MARK N'Deleting a Job Candidate';  
+    WITH MARK 'Deleting a Job Candidate';  
 GO  
 USE AdventureWorks2012;  
 GO  
